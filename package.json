@@ -1,13 +1,18 @@
 {
-  "name": "vite-react-tailwind-shadcn-reactquery-ts-boilerplate",
-  "private": true,
-  "version": "2.0.0",
+  "name": "@blitzkiiro/vite-react-tsx-starter",
+  "version": "2.0.2",
   "type": "module",
+  "packageManager": "npm@10.5.0",
   "scripts": {
     "dev": "vite --port 3000 --host ",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "bin": "./bin/create.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlitzKiiro/vite-react-tailwind-shadcn-reactquery-ts-boilerplate.git"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",

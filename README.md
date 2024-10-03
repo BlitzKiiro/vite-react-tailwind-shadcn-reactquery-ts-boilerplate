@@ -28,11 +28,20 @@ Ensure you have the following tools installed on your machine:
 
 ## Installation
 
+### Using NPM
+
+1. use npx command
+   ```bash
+   npx @blitzkiiro/vite-react-tsx-starter project-name
+   ```
+
+### Using Git CLI
+
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BlitzKiiro/vite-react-tailwind-shadcn-reactquery-ts-boilerplate
-   cd vite-react-tailwind-shadcn-reactquery-ts-boilerplate
+   git clone https://github.com/BlitzKiiro/vite-react-tailwind-shadcn-reactquery-ts-boilerplate project-name
+   cd project-name
    ```
 
 2. Install dependencies:
